@@ -1,0 +1,16 @@
+[package]
+name = "axum-middlewares"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.4.8"
+pin-project = "1.0.10"
+serde = "1.0.136"
+serde_json = "1.0.79"
+tokio = { version = "1.0", features = ["full"] }
+tower = { version = "0.4.12", features = ["full"] }
+tracing = "0.1.32"
+tracing-subscriber = "0.3.9"
